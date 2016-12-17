@@ -18,30 +18,27 @@ class Calculator {
     }
 
     public static void standartCalculation(String input) {
-        Float a = Float.parseFloat(input.split(" ")[0]);
-        Float b = Float.parseFloat(input.split(" ")[2]);
+        float a = Float.parseFloat(input.split(" ")[0]);
+        float b = Float.parseFloat(input.split(" ")[2]);
         String symb = input.split(" ")[1];
         switch (symb) {
             case "+" :
                 temp = a + b;
-                toDec(temp);
                 break;
             case "-":
                 temp = a - b;
-                toDec(temp);
                 break;
             case "*":
                 temp = a * b;
-                toDec(temp);
                 break;
             case "/":
                 temp = a / b;
-                toDec(temp);
                 break;
             case "exit":
                 System.exit(0);
                 break;
         }
+        toDec(temp);
     }
 
     public static void memoryCalculation(String input) {
@@ -50,23 +47,20 @@ class Calculator {
         switch (symb) {
             case "+":
                 temp += a;
-                toDec(temp);
                 break;
             case "-":
                 temp -= a;
-                toDec(temp);
                 break;
             case "*":
                 temp *= a;
-                toDec(temp);
                 break;
             case "/":
                 temp /= a;
-                toDec(temp);
                 break;
             case "exit":
                 System.exit(0);
         }
+        toDec(temp);
     }
 
     public static void main(String[] args) {
