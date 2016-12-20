@@ -1,4 +1,4 @@
-package HomeWork2_Calc_Arrays;
+package HomeWork2_Calc_Arrays.SimpleManipulations;
 import java.util.Scanner;
 
 public class DataBase {
