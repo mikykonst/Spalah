@@ -14,7 +14,7 @@ public class Deposit {
   public double profit(int time) {
     double profit = this.depAmount;
     for (int i = 0; i < time; i++) {
-      profit = profit + (profit / 100 * this.percents);
+      profit = profit + ((profit / 100) * this.percents);
     }
     return profit - this.depAmount;
   }
