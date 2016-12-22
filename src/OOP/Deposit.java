@@ -1,8 +1,8 @@
 package OOP;
 
 public class Deposit {
-  private double depAmount = 1000;
-  private double percents = 0.20;
+  private double depAmount = 0;
+  private double percents = 0;
   private String clientName = "";
 
   public Deposit(String clientName, double depAmount, double percents) {

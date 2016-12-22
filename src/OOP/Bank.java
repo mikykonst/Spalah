@@ -8,7 +8,7 @@ public class Bank {
 
   private static int countDeposits = 0;
   private String bankName;
-  private ArrayList<Deposit> depositList = new ArrayList<>();
+  public ArrayList<Deposit> depositList = new ArrayList<>();
 
   public Bank(String bankName) {
     this.bankName = bankName;
