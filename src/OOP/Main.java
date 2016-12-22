@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Integer please..");
       }
     }
-    System.out.println("Amount over " + years + " years: " + banbandepositList.get(i).profit(years));
+    System.out.println("Amount over " + years + " years: " + bank.calcSum(years));
 
   }
 }
