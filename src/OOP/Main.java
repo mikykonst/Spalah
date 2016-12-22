@@ -1,6 +1,5 @@
 package OOP;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -22,10 +21,7 @@ public class Main {
         System.out.println("Integer please..");
       }
     }
-    for (Deposit dep: bank.depositList) {
-      double res = dep.profit(years);
-      res = Math.round(res);
-      System.out.println("Amount over " + years + " years: " + res);
-    }
+    System.out.println("Amount over " + years + " years: " + banbandepositList.get(i).profit(years));
+
   }
 }
