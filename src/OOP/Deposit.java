@@ -17,5 +17,6 @@ public class Deposit {
       profit = profit + ((profit / 100) * this.percents);
     }
     return profit - this.depAmount;
+    
   }
 }
